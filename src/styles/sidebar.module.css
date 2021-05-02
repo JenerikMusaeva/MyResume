@@ -1,0 +1,57 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 300px;
+  height: 700px;
+  position: fixed;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .5);
+}
+
+.sidebar h1 {
+  /* color: #fff; */
+  text-align: center;
+}
+
+.sidebar h2 {
+  /* color: #C2B6D6; */
+  text-align: center;
+}
+
+.photo {
+  width: 200px;
+  height: 230px;
+  border: 12px solid #EB7565;
+  border-radius: 70px;
+  background-image: url(../images/IMG_20200927_165704.jpg);
+  display: block;
+  background-size: cover;
+  background-position-y: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .5); 
+  box-shadow: 10px 12px #7BCAA5;
+}
+
+.downloadCV {
+  /* background-color: #87E8C6; */
+  border: 3px solid #EB7565;
+  padding: 10px 15px;
+  border-radius: 20px;
+  /* box-shadow: 0 2px 6px rgba(0, 0, 0, .5); */
+  color: #EB7565;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: 0.7s;
+
+}
+
+.downloadCV:hover {
+  border: 3px solid #7BCAA5;
+  background: #7BCAA5;
+  color: #fff;
+  transition: 0.7s;
+}
