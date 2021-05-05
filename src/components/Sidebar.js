@@ -1,18 +1,20 @@
 import React from "react";
-import MyPhoto from '../images/IMG_20200927_165704.jpg'
-import SocialPage from '../components/SocialPage'
-import styles from "../styles/sidebar.module.css"
+import styles from "../styles/sidebar.module.css";
+import { Fade, Flip } from "react-reveal";
 
-
- export default function Sidebar() {
+export default function Sidebar() {
   return (
-    <div className={styles.sidebar}>
-      <div className={styles.photo} >
+    <Fade left>
+      <div className={styles.sidebar}>
+        <Flip top duration={3000}>
+          <div className={styles.photo}></div>
+        </Flip>
+        <h1>Мусаева Жанара</h1>
+        <h2>В начале пути FRONTEND разработчика</h2>
+        <Flip bottom duration={3000}>
+          <div className={styles.downloadCV}>Скачать резюме</div>
+        </Flip>
       </div>
-      <h1>Мусаева Жанара</h1>
-      <h2>В начале пути FRONTEND разработчика</h2>
-      <div className={styles.downloadCV}>Скачать резюме</div>
-      
-    </div>
+    </Fade>
   );
 }

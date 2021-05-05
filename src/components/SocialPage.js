@@ -1,8 +1,12 @@
 import React from "react";
 import styles from "../styles/social.module.css";
+import Fade from "react-reveal/Fade"
+
 
 export default function SocialPage() {
   return (
+    <Fade right>
+
     <div className={styles.social}>
       <ul>
         <li>
@@ -28,5 +32,6 @@ export default function SocialPage() {
         
       </ul>
     </div>
+    </Fade>
   );
 }

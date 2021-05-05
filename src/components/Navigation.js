@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "../styles/navigation.module.css"
+import Fade from "react-reveal/Fade"
 
  export default function Sidebar() {
   return (
+    <Fade top>
     <div className={styles.navigation}>
       <ul >
         <li>
@@ -23,5 +25,6 @@ import styles from "../styles/navigation.module.css"
         </li>
       </ul>
     </div>
+    </Fade>
   );
 }

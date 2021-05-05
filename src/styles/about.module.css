@@ -1,12 +1,44 @@
 .about {
-  position: absolute;
-  left: 330px;
-  top: 70px;
-  width: 700px;
-  background: #fff;
-  padding: 15px;
-  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about h1 span {
+  color: #EB7565;
+}
+
+.description {
+  width: 80%;
+  display: inline-block;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.rightside {
+
+}
+
+.info {
+  display: inline-block;
+  padding: 10px;
+  background-color: #5696D4;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, .5);
-  height: 630px;
+  margin-bottom: 20px;
+}
+
+.info p {
+  color: #FCCF26;
+  font-weight: 600;
+}
+
+.info span {
+  color: #fff;
+  font-weight: normal;
+}
+
+.contacts {
+  display: inline-block;
+  padding: 10px;
+  background-color: #A260AA;
+  border-radius: 10px;
 }
