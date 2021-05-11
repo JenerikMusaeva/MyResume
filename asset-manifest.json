@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/MyResume/static/css/main.a5fdf6f0.chunk.css",
-    "main.js": "/MyResume/static/js/main.ffd9e434.chunk.js",
-    "main.js.map": "/MyResume/static/js/main.ffd9e434.chunk.js.map",
+    "main.js": "/MyResume/static/js/main.5423b54c.chunk.js",
+    "main.js.map": "/MyResume/static/js/main.5423b54c.chunk.js.map",
     "runtime-main.js": "/MyResume/static/js/runtime-main.32f10c5c.js",
     "runtime-main.js.map": "/MyResume/static/js/runtime-main.32f10c5c.js.map",
-    "static/js/2.a2b5282f.chunk.js": "/MyResume/static/js/2.a2b5282f.chunk.js",
-    "static/js/2.a2b5282f.chunk.js.map": "/MyResume/static/js/2.a2b5282f.chunk.js.map",
+    "static/js/2.53a6d7fb.chunk.js": "/MyResume/static/js/2.53a6d7fb.chunk.js",
+    "static/js/2.53a6d7fb.chunk.js.map": "/MyResume/static/js/2.53a6d7fb.chunk.js.map",
     "index.html": "/MyResume/index.html",
     "static/css/main.a5fdf6f0.chunk.css.map": "/MyResume/static/css/main.a5fdf6f0.chunk.css.map",
-    "static/js/2.a2b5282f.chunk.js.LICENSE.txt": "/MyResume/static/js/2.a2b5282f.chunk.js.LICENSE.txt",
+    "static/js/2.53a6d7fb.chunk.js.LICENSE.txt": "/MyResume/static/js/2.53a6d7fb.chunk.js.LICENSE.txt",
     "static/media/sidebar.module.css": "/MyResume/static/media/IMG_20200927_165704.50e43ccf.jpg",
     "static/media/social.module.css": "/MyResume/static/media/whatsapp.63a512d9.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.32f10c5c.js",
-    "static/js/2.a2b5282f.chunk.js",
+    "static/js/2.53a6d7fb.chunk.js",
     "static/css/main.a5fdf6f0.chunk.css",
-    "static/js/main.ffd9e434.chunk.js"
+    "static/js/main.5423b54c.chunk.js"
   ]
 }
