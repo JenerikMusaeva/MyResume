@@ -39,9 +39,9 @@ export default function About() {
           <p>В настоящее время работаю преподавателем</p>
         </div>
         <div className={styles.contacts}>
-          <div>Адрес: г. Бишкек</div>
-          <div>Телефон: +996 779 866 133</div>
-          <div>E-mail: proximity2006@gmail.com</div>
+        <p>Адрес:<span> г. Бишкек</span></p>
+        <p>Телефон:<span> +996 779 866 133</span></p>
+        <p>E-mail:<span> proximity2006@gmail.com</span></p>
         </div>
           </div>
       </div>

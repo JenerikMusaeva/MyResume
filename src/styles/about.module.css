@@ -19,7 +19,7 @@
 }
 
 .info {
-  display: inline-block;
+  display: block;
   padding: 10px;
   background-color: #5696D4;
   border-radius: 10px;
@@ -29,7 +29,10 @@
 .info p {
   color: #FCCF26;
   font-weight: 600;
+  margin-bottom: 15px;
 }
+
+/* :not(:first-child):not(:last-child) */
 
 .info span {
   color: #fff;
@@ -37,8 +40,19 @@
 }
 
 .contacts {
-  display: inline-block;
+  display: block;
   padding: 10px;
   background-color: #A260AA;
   border-radius: 10px;
+}
+
+.contacts p {
+  color: #FCCF26;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.contacts span {
+  color: #fff;
+  font-weight: normal;
 }
