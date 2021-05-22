@@ -14,10 +14,6 @@
   margin-right: 20px;
 }
 
-.rightside {
-
-}
-
 .info {
   display: inline-block;
   padding: 10px;
@@ -32,6 +28,21 @@
 }
 
 .info span {
+  color: #fff;
+  font-weight: normal;
+}
+
+.contacts p {
+  color: #FCCF26;
+  font-weight: 600;
+}
+
+.contacts span {
+  color: #fff;
+  font-weight: normal;
+}
+
+.contacts span a{
   color: #fff;
   font-weight: normal;
 }

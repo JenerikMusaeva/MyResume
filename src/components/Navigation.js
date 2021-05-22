@@ -8,11 +8,11 @@ import Fade from "react-reveal/Fade"
     <Fade top>
     <div className={styles.navigation}>
       <ul >
-        <li>
+        {/* <li>
           <Link to="/">Homepage</Link>
-        </li>
+        </li> */}
         <li>
-          <Link to="/about">About me</Link>
+          <Link to="/">About me</Link>
         </li>
         <li>
           <Link to="/resume">Resume</Link>

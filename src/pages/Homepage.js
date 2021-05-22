@@ -9,7 +9,7 @@ export default function Homepage() {
     <div className="pages">
       <h1>Homepage</h1>
 
-      
+      <p></p>
     </div>
   );
 }

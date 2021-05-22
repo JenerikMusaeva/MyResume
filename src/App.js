@@ -4,7 +4,6 @@ import { useTransition, animated } from "react-spring";
 import "./Style.css";
 import Navigation from "./components/Navigation";
 import Sidebar from "./components/Sidebar";
-import Homepage from "./pages/Homepage";
 import About from "./pages/About";
 import Resume from "./pages/Resume";
 import Portfolio from "./pages/Portfolio";
@@ -35,8 +34,7 @@ function App() {
       {transitions(({ item, props }) => (
         <animated style={props}>
           <Switch location={item}>
-            <Route exact path="/" component={Homepage} />
-            <Route exact path="/about" component={About} />
+            <Route exact path="/" component={About} />
             <Route exact path="/resume" component={Resume} />
             <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/contactme" component={ContactMe} />

@@ -1,0 +1,53 @@
+.resume {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+}
+
+.education{
+  display: inline-block;
+  padding: 10px;
+  background-color: #7BCAA5;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.education h3 {
+  color: #FCCF26;
+  margin-bottom: 10px;
+}
+
+.courses {
+  margin-bottom: 30px;
+}
+
+.courses p {
+  margin-bottom: 15px;
+}
+
+.courses span {
+  color: #fff;
+  font-weight: 700;
+}
+
+.university p {
+  margin-bottom: 15px;
+}
+
+.skills {
+  /* display: inline-block; */
+  padding: 10px;
+  background-color: #5696D4;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.skills h3{
+  color:#FCCF26
+}
+
+.skills p{
+  color:#fff;
+  margin-bottom: 10px;
+
+}
